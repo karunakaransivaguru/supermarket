@@ -62,3 +62,34 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Command : ( To run the script)
+
+php artisan test
+
+Output:
+   PASS  Tests\Feature\SuperMarketTest
+  ✓ iteam code  a
+  ✓ iteam code  b
+  ✓ iteam code  c
+  ✓ iteam code  d
+
+  Tests:  4 passed
+  Time:   0.30s
+
+URL: http://localhost/supermarket/public/supermarket
+
+From this URL you have to select item code , quantity and click the submit button to see the results.
+
+Sample Output : 
+
+A item of 7 quantity amount is = 310
+B item of 4 quantity amount is = 90
+C item of 5 quantity amount is = 90
+
+
+ 
+
+
+

@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-  return "HI";
+  return view("welcome");
 });
+
+Route::get('/supermarket','SuperMarketController@index');
+Route::post('store','SuperMarketController@calculateItemTotal')->name("store");
